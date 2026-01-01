@@ -1,0 +1,1527 @@
+2025-06-11 02:00:06,802 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 02:01:02,354 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:02:06,677 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 02:02:38,545 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 02:04:53,419 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 02:05:31,426 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 02:06:42,326 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:06:44,525 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:10:13,569 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:10:15,699 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:10:47,457 - WARNING - Not Found: /api/notification/download/版面费通知_示例标题.pdf/
+2025-06-11 02:11:00,270 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:11:09,534 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:16:24,574 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 02:16:35,207 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 02:17:24,165 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:17:25,379 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-11 02:19:58,968 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 06:21:53,310 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 06:22:20,305 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 06:31:23,864 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 06:39:05,459 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 06:39:13,136 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/serializers.py changed, reloading.
+2025-06-11 06:40:44,665 - WARNING - Method Not Allowed: /api/contacts/batch/
+2025-06-11 06:41:29,282 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 06:42:42,853 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 07:18:22,462 - WARNING - Not Found: /api/reviewers/
+2025-06-11 07:21:08,273 - WARNING - Not Found: /api/reviewers/batch_create/
+2025-06-11 07:21:24,098 - WARNING - Not Found: /api/reviewers/batch_create/
+2025-06-11 07:21:45,274 - WARNING - Not Found: /api/reviewers/
+2025-06-11 07:24:24,181 - WARNING - Not Found: /api/reviewers/
+2025-06-11 07:24:47,759 - WARNING - Not Found: /api/reviewers/
+2025-06-11 07:26:27,233 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 07:26:39,958 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/serializers.py changed, reloading.
+2025-06-11 07:26:57,737 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 07:27:09,393 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 07:29:31,481 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 07:29:44,239 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/serializers.py changed, reloading.
+2025-06-11 07:30:02,047 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-06-11 07:36:16,893 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 07:38:14,062 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:31,397 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:44,917 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:46,551 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:47,554 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:51,297 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:52,175 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:53,356 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:38:58,344 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:39:35,251 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:39:49,094 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:43,251 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:49,357 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:53,218 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:55,970 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:57,642 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:58,680 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:40:59,806 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:41:07,241 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:41:19,267 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:41:27,178 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:41:29,489 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:42:21,541 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:42:22,657 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:42:23,647 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:42:24,323 - ERROR - Internal Server Error: /api/reviewers/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `email` is not valid for model `Reviewer` in `qikan.serializers.ReviewerSerializer`.
+2025-06-11 07:42:39,979 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/serializers.py changed, reloading.
+2025-06-11 07:49:02,415 - WARNING - Bad Request: /api/reviewers/
+2025-06-11 07:50:03,107 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 07:50:16,737 - WARNING - Bad Request: /api/reviewers/
+2025-06-11 07:50:19,357 - WARNING - Bad Request: /api/reviewers/
+2025-06-11 07:50:23,737 - WARNING - Bad Request: /api/reviewers/
+2025-06-11 07:50:55,321 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-06-11 07:51:06,130 - WARNING - Bad Request: /api/reviewers/
+2025-06-11 07:57:09,588 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-11 07:57:40,722 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-06-19 06:37:20,525 - WARNING - Not Found: /
+2025-06-19 06:37:20,686 - WARNING - Not Found: /favicon.ico
+2025-06-26 02:59:37,912 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-26 02:59:51,594 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-27 05:18:01,398 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-06-27 06:34:41,390 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 07:49:28,328 - WARNING - '录用通知' 批量任务完成。成功: 7, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 07:49:36,525 - WARNING - '版面费通知' 批量任务完成。成功: 7, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:37:32,874 - WARNING - '录用通知' 批量任务完成。成功: 7, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:37:40,936 - WARNING - '版面费通知' 批量任务完成。成功: 7, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:42:19,496 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:42:20,681 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:48:11,781 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:52:42,975 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 08:52:44,160 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-01 09:02:46,161 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-08 07:03:08,581 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-08 07:03:11,143 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-16 05:45:22,883 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-07-16 05:49:09,187 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-07-16 05:49:12,612 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:15,294 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-07-16 05:49:15,732 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:17,399 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:18,385 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-07-16 05:49:18,898 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-07-16 05:49:19,419 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-07-16 05:49:19,947 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-07-16 05:49:20,422 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:27,665 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:28,888 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-07-16 05:49:29,393 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-07-16 05:49:29,751 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-07-16 05:49:30,373 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-07-16 05:49:30,882 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:49:53,780 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:50:54,440 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:50:55,654 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-07-16 05:50:56,154 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-07-16 05:50:56,553 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-07-16 05:50:56,917 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-07-16 05:50:57,395 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-07-16 05:53:14,012 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-07-16 05:53:39,943 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-07-16 06:22:03,744 - ERROR - Internal Server Error: /api/journal/4/create/
+2025-07-16 06:41:16,760 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-07-16 06:41:28,472 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-07-16 07:26:39,961 - WARNING - Not Found: /
+2025-07-16 07:26:40,141 - WARNING - Not Found: /favicon.ico
+2025-07-17 02:01:45,583 - WARNING - '录用通知' 批量任务完成。成功: 5, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-17 02:01:52,151 - WARNING - '版面费通知' 批量任务完成。成功: 5, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-07-17 08:39:39,833 - WARNING - '版面费通知' 批量任务完成。成功: 4, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:21:00,041 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:21:01,288 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:49:09,814 - WARNING - '录用通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:49:12,324 - WARNING - '版面费通知' 批量任务完成。成功: 2, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:49:38,616 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-15 06:49:39,893 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-08-19 07:08:32,792 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-19 07:10:38,136 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-19 07:11:24,172 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-19 07:40:42,300 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-19 07:41:44,361 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-19 07:42:56,483 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-19 07:43:28,379 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-19 07:44:24,526 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 02:27:36,321 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-08-21 02:46:19,922 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-08-21 02:47:13,898 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 03:21:24,762 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-21 03:22:00,642 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 03:22:17,511 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 03:24:28,252 - WARNING - Not Found: /api/todos/undefined/status/
+2025-08-21 03:24:37,016 - WARNING - Not Found: /api/todos/undefined/status/
+2025-08-21 03:24:38,938 - WARNING - Not Found: /api/todos/undefined/status/
+2025-08-21 05:07:08,266 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 05:07:19,933 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 07:12:32,335 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-21 07:15:53,370 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-21 07:29:47,464 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 07:31:11,725 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 07:31:36,632 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 07:52:47,033 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-21 07:53:47,073 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 07:54:38,489 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 08:00:46,545 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:01:08,355 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 08:01:45,389 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:04:32,579 - WARNING - Bad Request: /api/groups/rename/
+2025-08-21 08:04:55,613 - WARNING - Bad Request: /api/groups/rename/
+2025-08-21 08:06:13,354 - WARNING - Bad Request: /api/groups/rename/
+2025-08-21 08:13:21,386 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/models.py changed, reloading.
+2025-08-21 08:15:00,737 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:16:41,174 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/migrations/0019_recipientgroup_remove_recipient_group_name_and_more.py changed, reloading.
+2025-08-21 08:17:18,048 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/migrations/0019_recipientgroup_remove_recipient_group_name_and_more.py changed, reloading.
+2025-08-21 08:30:08,774 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:37:27,612 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:38:51,064 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:39:52,082 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:46:20,234 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:48:45,882 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 08:56:56,967 - WARNING - Not Found: /api/recipients/append-to-group/
+2025-08-21 08:56:59,066 - WARNING - Not Found: /api/recipients/append-to-group/
+2025-08-21 08:57:12,010 - WARNING - Not Found: /api/recipients/append-to-group/
+2025-08-21 08:57:22,134 - WARNING - Not Found: /api/recipients/append-to-group/
+2025-08-21 08:58:26,289 - WARNING - Not Found: /api/recipients/append-to-group/
+2025-08-21 08:59:11,336 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 09:32:15,319 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 09:33:26,562 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 09:33:44,374 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-21 09:42:30,281 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 09:45:25,332 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:45:35,775 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:46:31,570 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 09:46:56,427 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 09:47:34,659 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:48:20,509 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:49:20,158 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:49:35,055 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:50:57,032 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:51:44,569 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:52:06,028 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 09:52:16,220 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 10:08:08,005 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 10:09:51,805 - ERROR - Internal Server Error: /api/recipients/
+2025-08-21 11:25:55,929 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 11:26:44,908 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 11:27:07,693 - INFO - /home/kyb/桌面/code/BJ/qk/qk/settings.py changed, reloading.
+2025-08-21 11:30:17,589 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 14:05:05,321 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 14:06:07,715 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-21 14:06:20,557 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-22 06:49:55,139 - WARNING - Not Found: /api/todos/undefined/status/
+2025-08-23 06:33:01,521 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 06:34:30,414 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 06:46:02,913 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 06:46:45,017 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 06:47:02,905 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/urls.py changed, reloading.
+2025-08-23 07:36:05,156 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 07:57:55,322 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 07:58:41,478 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 08:12:37,550 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 08:15:30,029 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-23 08:15:54,892 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/views.py changed, reloading.
+2025-08-26 08:34:06,083 - WARNING - Bad Request: /api/recipients/create/
+2025-08-26 08:35:51,743 - WARNING - Bad Request: /api/recipients/36417/update/
+2025-08-26 08:36:23,324 - WARNING - Bad Request: /api/recipients/36351/update/
+2025-08-26 09:17:08,058 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-08-26 09:17:16,095 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:17:18,963 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:17:33,478 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:17:47,982 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:17:55,516 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-08-26 09:18:21,494 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-08-26 09:18:54,362 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:19:26,412 - ERROR - Internal Server Error: /api/reference/check/
+2025-08-26 09:20:46,695 - INFO - /home/kyb/桌面/code/BJ/qk/qikan/RC.py changed, reloading.
+2025-09-08 05:28:39,327 - WARNING - Not Found: /api/todos/undefined/status/
+2025-09-08 05:28:42,825 - WARNING - Not Found: /api/todos/undefined/status/
+2025-09-08 05:30:08,817 - WARNING - Not Found: /api/todos/undefined/status/
+2025-09-08 05:30:20,290 - WARNING - Not Found: /api/todos/undefined/status/
+2025-09-22 07:51:40,137 - WARNING - Unauthorized: /api/auth/login/
+2025-09-22 09:16:40,612 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-09-22 09:16:40,613 - ERROR - Internal Server Error: /api/journal/period-mapping/
+2025-09-22 09:16:43,139 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-09-22 09:16:43,143 - ERROR - Internal Server Error: /api/journal/period-mapping/
+2025-09-22 09:16:45,469 - ERROR - Internal Server Error: /api/schedule/data/
+2025-09-22 09:16:45,845 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-09-22 09:16:45,845 - ERROR - Internal Server Error: /api/journal/period-mapping/
+2025-09-22 09:16:46,579 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-09-22 09:16:47,707 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-09-22 09:16:48,815 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-09-22 09:16:49,541 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-09-22 09:16:52,775 - ERROR - Internal Server Error: /api/contacts/
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/connection_cext.py", line 365, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Lost connection to MySQL server at 'reading initial communication packet', system error: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 289, in ensure_connection
+    self.connect()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 270, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/django/base.py", line 414, in get_new_connection
+    cnx = mysql.connector.connect(**conn_params)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/connection_cext.py", line 153, in __init__
+    self.connect(**kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1529, in connect
+    self._open_connection()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/connection_cext.py", line 370, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.OperationalError: 2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1560, in execute_sql
+    cursor = self.connection.cursor()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 306, in _cursor
+    self.ensure_connection()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 288, in ensure_connection
+    with self.wrap_database_errors:
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 289, in ensure_connection
+    self.connect()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/django/db/backends/base/base.py", line 270, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/django/base.py", line 414, in get_new_connection
+    cnx = mysql.connector.connect(**conn_params)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/connection_cext.py", line 153, in __init__
+    self.connect(**kwargs)
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/abstracts.py", line 1529, in connect
+    self._open_connection()
+  File "/home/kyb/software/miniconda3/envs/crawl/lib/python3.10/site-packages/mysql/connector/connection_cext.py", line 370, in _open_connection
+    raise get_mysql_exception(
+django.db.utils.OperationalError: (2013, "2013 (HY000): Lost connection to MySQL server at 'reading initial communication packet', system error: 0", 'HY000')
+2025-10-02 08:16:18,896 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 08:16:34,035 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:16:41,792 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:16:50,580 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:17:10,849 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:17:11,515 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-10-02 08:17:12,228 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-10-02 08:17:12,836 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-10-02 08:17:13,416 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:17:36,415 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:18:30,086 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:18:46,918 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:18:55,640 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:19:25,794 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:19:52,910 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:20:04,805 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:20:14,097 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:20:14,515 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-10-02 08:20:15,011 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-10-02 08:20:15,401 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-10-02 08:20:16,321 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:23:07,765 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:23:24,721 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:23:33,586 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:23:37,705 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:23:57,132 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 08:24:02,929 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:24:08,650 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:24:21,471 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:24:26,086 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:24:30,758 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:24:59,982 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 08:25:02,294 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:25:02,993 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-10-02 08:25:03,467 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-10-02 08:25:04,872 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:25:04,890 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-10-02 08:25:09,111 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:25:11,424 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:25:12,081 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:25:14,404 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:25:16,223 - ERROR - Internal Server Error: /api/journal/4/data/
+2025-10-02 08:25:16,276 - ERROR - Internal Server Error: /api/journal/5/data/
+2025-10-02 08:25:16,518 - ERROR - Internal Server Error: /api/journal/3/data/
+2025-10-02 08:25:17,111 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:25:17,486 - ERROR - Internal Server Error: /api/journal/1/data/
+2025-10-02 08:25:22,628 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:27:45,398 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 08:27:59,617 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:28:12,304 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:28:21,712 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:28:28,561 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:28:31,265 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:28:33,907 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:28:36,578 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:28:42,860 - ERROR - Internal Server Error: /api/journal/2/data/
+2025-10-02 08:28:43,450 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 08:29:24,894 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 09:29:39,307 - WARNING - Not Found: /api/upload/
+2025-10-02 11:44:05,771 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 11:44:16,964 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 11:53:29,724 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:13:46,858 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:14:19,174 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:16:22,207 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:16:41,642 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:21:27,779 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:23:24,790 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 12:25:28,825 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:25:38,767 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 12:25:55,250 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 12:26:28,838 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-02 13:12:15,596 - ERROR - 错误: 未找到 LibreOffice 命令。无法转换 /Users/xiaokong/BJ/qk/qikan/output_pdfs/录用通知_测试.docx
+2025-10-02 13:12:15,597 - WARNING - '录用通知' 批量任务完成。成功: 0, 失败: 0 (其中PDF转换失败: 1)。日志文件: generation_errors.log
+2025-10-02 13:12:15,615 - ERROR - 错误: 未找到 LibreOffice 命令。无法转换 /Users/xiaokong/BJ/qk/qikan/output_pdfs/版面费通知_测试.docx
+2025-10-02 13:12:15,615 - WARNING - '版面费通知' 批量任务完成。成功: 0, 失败: 0 (其中PDF转换失败: 1)。日志文件: generation_errors.log
+2025-10-02 13:12:15,615 - WARNING - Bad Request: /api/notification/generate/
+2025-10-02 13:53:58,180 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-10-02 13:54:02,699 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2025-10-02 14:10:16,315 - ERROR - Internal Server Error: /api/journal/5/append_files/
+2025-10-02 14:17:20,708 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 14:17:34,811 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-02 14:17:55,963 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 13:12:47,503 - INFO - /Users/xiaokong/BJ/qk/qikan/urls.py changed, reloading.
+2025-10-14 13:22:26,417 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 13:22:34,238 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 13:23:17,254 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 13:24:29,268 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 13:47:34,400 - INFO - /Users/xiaokong/BJ/qk/qikan/urls.py changed, reloading.
+2025-10-14 13:50:29,894 - ERROR - Internal Server Error: /api/invoice/delete/
+2025-10-14 14:01:36,113 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-14 14:01:42,970 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 14:01:53,616 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 14:02:14,352 - INFO - /Users/xiaokong/BJ/qk/qikan/urls.py changed, reloading.
+2025-10-14 14:03:09,572 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-14 14:03:20,721 - ERROR - Internal Server Error: /api/update-log/latest/
+2025-10-14 14:03:32,601 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2025-10-14 14:06:04,841 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2025-10-14 14:13:11,030 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.

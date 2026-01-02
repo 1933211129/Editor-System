@@ -55,6 +55,9 @@ class JournalPeriodBase(models.Model):
     editor_time = models.CharField(max_length=50, verbose_name='责编时间', blank=True)
     proof_time = models.CharField(max_length=50, verbose_name='校对时间', blank=True)
     remarks = models.CharField(max_length=50, verbose_name='备注', blank=True)
+    
+    # 版次信息
+    edition = models.CharField(max_length=50, verbose_name='版次', blank=True, default='')
 
     class Meta:
         abstract = True
@@ -274,6 +277,43 @@ class RecipientGroupMembership(models.Model):
             models.Index(fields=['recipient'], name='idx_rg_recipient'),
             models.Index(fields=['group'], name='idx_rg_group'),
         ]
+
+
+class JournalProgressSummary(models.Model):
+    """期刊进度管理汇总表，用于存储清空前的历史数据"""
+    # 来源信息
+    source_period = models.IntegerField(verbose_name='来源期数', help_text='1-5，表示来自第几期')
+    archived_at = models.DateTimeField(auto_now_add=True, verbose_name='归档时间')
+    
+    # 期刊信息字段（与 JournalPeriodBase 保持一致）
+    filename = models.CharField(max_length=255, verbose_name='文件名')
+    editor_in_charge = models.CharField(max_length=50, verbose_name='责编', blank=True)
+    page_fee = models.CharField(max_length=50, verbose_name='版面费', default='待更新')
+    
+    # 校对状态
+    proof_status = models.CharField(max_length=50, verbose_name='校对情况', default='待更新')
+    
+    # 校对编辑
+    first_second_proof_editor = models.CharField(max_length=50, verbose_name='一、二校编辑', blank=True)
+    third_proof_editor = models.CharField(max_length=50, verbose_name='三校编辑', blank=True)
+    final_proof_editor = models.CharField(max_length=50, verbose_name='终校编辑', blank=True)
+    
+    # 时间记录
+    editor_time = models.CharField(max_length=50, verbose_name='责编时间', blank=True)
+    proof_time = models.CharField(max_length=50, verbose_name='校对时间', blank=True)
+    remarks = models.CharField(max_length=50, verbose_name='备注', blank=True)
+    
+    # 版次信息
+    edition = models.CharField(max_length=50, verbose_name='版次', blank=True, default='')
+
+    class Meta:
+        db_table = 'journal_progress_summary'
+        verbose_name = '期刊进度汇总'
+        verbose_name_plural = verbose_name
+        ordering = ['-archived_at', 'source_period']
+
+    def __str__(self):
+        return f"第{self.source_period}期 - {self.filename} ({self.archived_at.strftime('%Y-%m-%d %H:%M')})"
 
 
 class UpdateLog(models.Model):

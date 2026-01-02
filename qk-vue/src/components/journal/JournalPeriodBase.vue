@@ -6,6 +6,11 @@
         <button class="btn btn-danger btn-sm" @click="openUpdateLog" v-show="true">更新日志</button>
       </div>
     </div>
+    
+    <!-- 右上角版次提示 -->
+    <div v-if="!currentEdition" class="edition-warning-alert">
+      <i class="bi bi-exclamation-triangle"></i> 未设置版次信息
+    </div>
       
       <!-- 在表格上方添加文件导入按钮 -->
       <div class="mb-3 d-flex align-items-center">
@@ -36,6 +41,12 @@
           <button class="btn btn-success" @click="saveAllChanges" :disabled="isImporting">
             <i class="bi bi-save"></i> 保存修改
           </button>
+          <button class="btn btn-outline-info" @click="showEditionModal" :disabled="isImporting">
+            <i class="bi bi-calendar3"></i> 版次设置
+          </button>
+          <span v-if="currentEdition" class="edition-display-badge">
+            <i class="bi bi-calendar-check"></i> {{ currentEdition }}
+          </span>
           <input
             type="file"
             ref="fileInput"
@@ -317,6 +328,53 @@
         {{ saveStatus }}
       </div>
     </div>
+    <!-- 版次设置弹窗 -->
+    <div class="modal" tabindex="-1" ref="editionModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">设置版次</h5>
+            <button type="button" class="btn-close" @click="hideEditionModal"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label class="form-label">年份</label>
+              <input 
+                type="number" 
+                class="form-control" 
+                v-model.number="editionYear" 
+                placeholder="例如：2024"
+                min="2000"
+                max="2100"
+                ref="editionYearRef"
+              >
+            </div>
+            <div class="mb-3">
+              <label class="form-label">月份</label>
+              <input 
+                type="number" 
+                class="form-control" 
+                v-model.number="editionMonth" 
+                placeholder="例如：1"
+                min="1"
+                max="100"
+              >
+            </div>
+            <div class="text-muted">
+              <small>当前版次：{{ currentEdition || '未设置' }}</small>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" @click="hideEditionModal">取消</button>
+            <button type="button" class="btn btn-primary" @click="saveEdition" :disabled="isSavingEdition || !editionYear || !editionMonth">
+              <span v-if="isSavingEdition" class="spinner-border spinner-border-sm me-2"></span>
+              保存
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- 更新日志弹窗 -->
     <div class="modal" tabindex="-1" ref="updateLogModal">
       <div class="modal-dialog">
@@ -376,6 +434,12 @@
   const isImporting = ref(false)  // 导入状态
   const updateLogModal = ref(null)
   const updateLog = ref(null)
+  const currentEdition = ref('')  // 当前版次
+  const editionModal = ref(null)  // 版次弹窗引用
+  const editionYear = ref(null)  // 版次年份
+  const editionMonth = ref(null)  // 版次月份
+  const isSavingEdition = ref(false)  // 是否正在保存版次
+  const editionYearRef = ref(null)  // 年份输入框引用
   
   // 用于存储未保存的修改
   const pendingChanges = ref(new Map())
@@ -430,7 +494,8 @@
           editors: {
             proof: ""
           },
-          proofDates: { ...proofDates.value }  // 使用当前表头的时间值
+          proofDates: { ...proofDates.value },  // 使用当前表头的时间值
+          edition: currentEdition.value || ''  // 使用当前版次
         }
         dataList.value.unshift(newItem)  // 在数组开头添加新行
         saveStatus.value = '已保存'
@@ -452,10 +517,23 @@
       // 加载数据
       const response = await axios.get(`/api/journal/${props.backendPeriod}/data/`)
       console.log('1. 后端原始数据:', response.data)
+      
+      // 处理返回数据（数组格式）
+      let responseData = response.data
       if (response.data && Array.isArray(response.data)) {
+        responseData = response.data
+        // 从第一条记录获取版次
+        if (responseData.length > 0 && responseData[0].edition) {
+          currentEdition.value = responseData[0].edition
+        } else {
+          currentEdition.value = ''
+        }
+      }
+      
+      if (responseData && Array.isArray(responseData)) {
         // 收集所有不重复的责编选项
         const uniqueResponsibles = new Set()
-        response.data.forEach(item => {
+        responseData.forEach(item => {
           if (item.responsible) {
             uniqueResponsibles.add(item.responsible)
           }
@@ -464,7 +542,7 @@
         responsibleOptions.value = Array.from(uniqueResponsibles)
         console.log('责编选项:', responsibleOptions.value)
   
-        dataList.value = response.data.map(item => {
+        dataList.value = responseData.map(item => {
           const mappedItem = {
             id: parseInt(item.id),
             title: item.title || '',
@@ -479,7 +557,8 @@
               proof3: item.editors?.proof3 || '',
               proofFinal: item.editors?.proofFinal || ''
             },
-            proofDates: item.proofDates || {}
+            proofDates: item.proofDates || {},
+            edition: item.edition || ''
           }
           return mappedItem
         })
@@ -848,7 +927,8 @@
             proof12: item.editors?.proof12 || item.editors?.proof1 || item.editors?.proof2 || '',
             proof3: item.editors?.proof3 || ''
           },
-          proofDates: item.proofDates || {}
+          proofDates: item.proofDates || {},
+          edition: item.edition || currentEdition.value || ''
         })))
         saveStatus.value = '已保存'
         event.target.value = '' // 清空文件输入
@@ -886,6 +966,93 @@
     if (updateLogModal.value) {
       updateLogModal.value.style.display = 'none'
       updateLogModal.value.classList.remove('show')
+    }
+  }
+  
+  // 版次相关函数
+  const showEditionModal = () => {
+    // 解析当前版次，填充到输入框
+    if (currentEdition.value) {
+      const match = currentEdition.value.match(/(\d+)年(\d+)月/)
+      if (match) {
+        editionYear.value = parseInt(match[1])
+        editionMonth.value = parseInt(match[2])
+      } else {
+        editionYear.value = null
+        editionMonth.value = null
+      }
+    } else {
+      editionYear.value = null
+      editionMonth.value = null
+    }
+    
+    // 显示弹窗
+    if (editionModal.value) {
+      editionModal.value.style.display = 'block'
+      editionModal.value.classList.add('show')
+      // 聚焦年份输入框
+      setTimeout(() => {
+        if (editionYearRef.value) {
+          editionYearRef.value.focus()
+        }
+      }, 100)
+    }
+  }
+  
+  const hideEditionModal = () => {
+    if (editionModal.value) {
+      editionModal.value.style.display = 'none'
+      editionModal.value.classList.remove('show')
+    }
+    editionYear.value = null
+    editionMonth.value = null
+  }
+  
+  const saveEdition = async () => {
+    if (!editionYear.value || !editionMonth.value) {
+      alert('请填写年份和月份')
+      return
+    }
+    
+    if (editionYear.value < 2000 || editionYear.value > 2100) {
+      alert('年份范围应在 2000-2100 之间')
+      return
+    }
+    
+    if (editionMonth.value < 1 || editionMonth.value > 100) {
+      alert('月份范围应在 1-12 之间')
+      return
+    }
+    
+    const editionText = `${editionYear.value}年${editionMonth.value}月`
+    
+    try {
+      isSavingEdition.value = true
+      const response = await axios.post(`/api/journal/${props.backendPeriod}/edition/`, {
+        edition: editionText
+      })
+      
+      if (response.data.status === 'success') {
+        currentEdition.value = editionText
+        // 更新所有记录的版次字段
+        dataList.value.forEach(item => {
+          item.edition = editionText
+        })
+        hideEditionModal()
+        saveStatus.value = '版次已保存'
+        setTimeout(() => {
+          if (saveStatus.value === '版次已保存') {
+            saveStatus.value = ''
+          }
+        }, 2000)
+      } else {
+        throw new Error(response.data.message || '保存失败')
+      }
+    } catch (error) {
+      console.error('保存版次失败:', error)
+      alert('保存版次失败: ' + (error.response?.data?.message || error.message))
+    } finally {
+      isSavingEdition.value = false
     }
   }
   
@@ -1207,6 +1374,47 @@
   .btn:disabled {
     opacity: 0.6;
     cursor: not-allowed;
+  }
+  
+  /* 版次提示样式 */
+  .edition-warning-alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #fff3cd;
+    color: #856404;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #ffc107;
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .edition-warning-alert i {
+    font-size: 18px;
+  }
+  
+  /* 版次显示徽章样式 */
+  .edition-display-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 8px;
+  }
+  
+  .edition-display-badge i {
+    font-size: 16px;
+    color: #0c5460;
   }
   </style> 
   

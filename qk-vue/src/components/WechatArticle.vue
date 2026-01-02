@@ -20,7 +20,7 @@
     <div class="embedded-section">
       <iframe
         ref="editorIframe"
-        src="/md/index.html"
+        :src="mdEditorPath"
         style="width: 100%; height: 100vh; border: none;"
         title="Markdown编辑器"
         @load="handleIframeLoad"
@@ -34,6 +34,9 @@ import { ref } from 'vue';
 
 const editorIframe = ref(null);
 const loading = ref(false);
+
+// 使用 Vite 的基础路径
+const mdEditorPath = `${import.meta.env.BASE_URL}md/index.html`;
 
 // 示例内容
 const sampleContent = `# 示例文章标题

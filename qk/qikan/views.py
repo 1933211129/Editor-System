@@ -10,7 +10,7 @@ import time
 import random
 from .models import (
     Mail, JournalPeriodOne, JournalPeriodTwo, JournalPeriodThree,
-    JournalPeriodFour, JournalPeriodFive, Invoice, ArticleSchedule, PeriodMapping, Contact, Reviewer, Todo, Recipient, RecipientGroup, RecipientGroupMembership, UpdateLog
+    JournalPeriodFour, JournalPeriodFive, Invoice, ArticleSchedule, PeriodMapping, Contact, Reviewer, Todo, Recipient, RecipientGroup, RecipientGroupMembership, UpdateLog, JournalProgressSummary
 )
 from django.db.models import Q, Count
 from django.contrib.auth import authenticate, login
@@ -505,7 +505,8 @@ def get_journal_data(request, period_number):
                                     first_second_proof_editor='',
                                     third_proof_editor='',
                                     final_proof_editor='',
-                                    remarks=''
+                                    remarks='',
+                                    edition=''
                                 )
                                 new_records.append({
                                     'id': journal.id,
@@ -524,7 +525,8 @@ def get_journal_data(request, period_number):
                                     'proofDates': {
                                         'editor': journal.editor_time or '',
                                         'proof': journal.proof_time or ''
-                                    }
+                                    },
+                                    'edition': journal.edition or ''
                                 })
                 except Exception:
                     # 忽略 JSON 解析失败，回退到文件上传方式
@@ -542,7 +544,8 @@ def get_journal_data(request, period_number):
                             first_second_proof_editor='',
                             third_proof_editor='',
                             final_proof_editor='',
-                            remarks=''
+                            remarks='',
+                            edition=''
                         )
                         new_records.append({
                             'id': journal.id,
@@ -561,7 +564,8 @@ def get_journal_data(request, period_number):
                             'proofDates': {
                                 'editor': journal.editor_time or '',
                                 'proof': journal.proof_time or ''
-                            }
+                            },
+                            'edition': journal.edition or ''
                         })
 
                 return JsonResponse({'status': 'success', 'data': new_records})
@@ -569,7 +573,21 @@ def get_journal_data(request, period_number):
             # GET 请求返回所有数据
             journals = JournalModel.objects.all()
             data = []
+            # 获取版次信息（从第一条记录获取，如果存在）
+            edition = ''
+            if journals.exists():
+                try:
+                    first_journal = journals.first()
+                    edition = getattr(first_journal, 'edition', '') or ''
+                except Exception:
+                    edition = ''
+            
             for journal in journals:
+                try:
+                    edition_value = getattr(journal, 'edition', '') or ''
+                except Exception:
+                    edition_value = ''
+                    
                 item = {
                     'id': journal.id,
                     'title': journal.filename,
@@ -587,9 +605,12 @@ def get_journal_data(request, period_number):
                     'proofDates': {
                         'editor': journal.editor_time,
                         'proof': journal.proof_time
-                    }
+                    },
+                    'edition': edition_value
                 }
                 data.append(item)
+            
+            # 返回数组格式（保持向后兼容），版次信息通过第一条记录的 edition 字段传递
             return JsonResponse(data, safe=False)
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
@@ -1041,7 +1062,8 @@ def import_files(request, period):
                     editor_in_charge='',
                     page_fee='待更新',
                     proof_status='待更新',
-                    remarks=''
+                    remarks='',
+                    edition=''
                 )
                 
                 # 构造返回数据
@@ -1111,7 +1133,8 @@ def append_journal_files(request, period_number):
                                 first_second_proof_editor='',
                                 third_proof_editor='',
                                 final_proof_editor='',
-                                remarks=''
+                                remarks='',
+                                edition=''
                             )
                             new_records.append({
                                 'id': journal.id,
@@ -1147,7 +1170,8 @@ def append_journal_files(request, period_number):
                         first_second_proof_editor='',
                         third_proof_editor='',
                         final_proof_editor='',
-                        remarks=''
+                        remarks='',
+                        edition=''
                     )
                     new_records.append({
                         'id': journal.id,
@@ -1217,7 +1241,8 @@ def update_journal_field(request, period_number):
                 'editors.proofFinal': 'final_proof_editor',
                 'proofDates.editor': 'editor_time',
                 'proofDates.proof': 'proof_time',
-                'remarks': 'remarks'
+                'remarks': 'remarks',
+                'edition': 'edition'
             }
             
             if field in field_mapping:
@@ -1274,7 +1299,8 @@ def create_journal(request, period_number):
                 editor_in_charge=data.get('responsible', ''),
                 page_fee='待更新',
                 proof_status='待更新',
-                remarks=data.get('remarks', '')
+                remarks=data.get('remarks', ''),
+                edition=''
             )
             
             return JsonResponse({
@@ -1302,11 +1328,72 @@ def clear_journal_data(request, period_number):
             if not JournalModel:
                 return JsonResponse({'status': 'error', 'message': '无效的期数'}, status=400)
 
+            # 第一步：将当前表的数据追加到汇总表
+            journals = JournalModel.objects.all()
+            summary_records = []
+            for journal in journals:
+                summary_records.append(JournalProgressSummary(
+                    source_period=period_number,
+                    filename=journal.filename,
+                    editor_in_charge=journal.editor_in_charge,
+                    page_fee=journal.page_fee,
+                    proof_status=journal.proof_status,
+                    first_second_proof_editor=journal.first_second_proof_editor,
+                    third_proof_editor=journal.third_proof_editor,
+                    final_proof_editor=journal.final_proof_editor,
+                    editor_time=journal.editor_time,
+                    proof_time=journal.proof_time,
+                    remarks=journal.remarks,
+                    edition=journal.edition
+                ))
+            
+            # 批量插入到汇总表
+            if summary_records:
+                JournalProgressSummary.objects.bulk_create(summary_records)
+            
+            # 第二步：清空当前表
             JournalModel.objects.all().delete()
-            return JsonResponse({'status': 'success'})
+            
+            return JsonResponse({
+                'status': 'success',
+                'message': f'已归档 {len(summary_records)} 条记录到汇总表，并清空当前表'
+            })
             
         except Exception as e:
             return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+
+@csrf_exempt
+def batch_update_edition(request, period_number):
+    """批量更新版次信息"""
+    if request.method == 'POST':
+        try:
+            # 根据期数选择对应的模型
+            model_map = {
+                1: JournalPeriodOne,
+                2: JournalPeriodTwo,
+                3: JournalPeriodThree,
+                4: JournalPeriodFour,
+                5: JournalPeriodFive
+            }
+            
+            JournalModel = model_map.get(period_number)
+            if not JournalModel:
+                return JsonResponse({'status': 'error', 'message': '无效的期数'}, status=400)
+
+            data = json.loads(request.body)
+            edition = data.get('edition', '')
+            
+            # 批量更新所有记录的版次
+            JournalModel.objects.all().update(edition=edition)
+            
+            return JsonResponse({
+                'status': 'success',
+                'message': '版次更新成功'
+            })
+            
+        except Exception as e:
+            return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+    return JsonResponse({'status': 'error', 'message': '不支持的请求方法'}, status=405)
 
 @csrf_exempt
 def delete_journal(request, period_number):
@@ -2653,3 +2740,78 @@ def delete_group(request):
             'status': 'error',
             'message': f'删除分组失败: {str(e)}'
         }, status=500)
+
+@csrf_exempt
+def get_journal_progress_summary(request):
+    """获取期刊进度汇总数据，支持筛选"""
+    if request.method == 'GET':
+        try:
+            # 获取筛选参数
+            year = request.GET.get('year', None)  # 年份筛选
+            month = request.GET.get('month', None)  # 月份筛选
+            keyword = request.GET.get('keyword', None)  # 关键词搜索
+            
+            # 基础查询
+            queryset = JournalProgressSummary.objects.all()
+            
+            # 应用筛选条件
+            if year:
+                try:
+                    year_int = int(year)
+                    # 根据归档时间的年份筛选
+                    queryset = queryset.filter(archived_at__year=year_int)
+                except ValueError:
+                    pass
+            
+            if month:
+                try:
+                    month_int = int(month)
+                    # 根据归档时间的月份筛选
+                    queryset = queryset.filter(archived_at__month=month_int)
+                except ValueError:
+                    pass
+            
+            if keyword:
+                queryset = queryset.filter(
+                    Q(filename__icontains=keyword) |
+                    Q(editor_in_charge__icontains=keyword) |
+                    Q(remarks__icontains=keyword)
+                )
+            
+            # 获取数据
+            summaries = queryset.order_by('-archived_at', 'source_period')
+            data = []
+            for summary in summaries:
+                data.append({
+                    'id': summary.id,
+                    'source_period': summary.source_period,
+                    'archived_at': summary.archived_at.strftime('%Y-%m-%d %H:%M:%S'),
+                    'filename': summary.filename,
+                    'editor_in_charge': summary.editor_in_charge,
+                    'page_fee': summary.page_fee,
+                    'proof_status': summary.proof_status,
+                    'first_second_proof_editor': summary.first_second_proof_editor,
+                    'third_proof_editor': summary.third_proof_editor,
+                    'final_proof_editor': summary.final_proof_editor,
+                    'editor_time': summary.editor_time,
+                    'proof_time': summary.proof_time,
+                    'remarks': summary.remarks,
+                    'edition': summary.edition
+                })
+            
+            return JsonResponse({
+                'status': 'success',
+                'data': data,
+                'total': len(data)
+            })
+            
+        except Exception as e:
+            return JsonResponse({
+                'status': 'error',
+                'message': str(e)
+            }, status=500)
+    
+    return JsonResponse({
+        'status': 'error',
+        'message': '不支持的请求方法'
+    }, status=405)

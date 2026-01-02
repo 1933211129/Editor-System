@@ -21,6 +21,7 @@ urlpatterns = [
     path('api/journal/<int:period_number>/clear/', views.clear_journal_data, name='clear_journal_data'), # 清除期刊数据
     path('api/journal/<int:period_number>/append_files/', views.append_journal_files, name='append_journal_files'), # 追加期刊文件
     path('api/journal/<int:period_number>/data/', views.get_journal_data, name='get_journal_data'),
+    path('api/journal/<int:period_number>/edition/', views.batch_update_edition, name='batch_update_edition'), # 批量更新版次
     path('api/journal/', views.get_journal_content, name='get_journal_content'), # 获取期刊内容
     path('api/invoice/update/', views.update_invoice, name='update_invoice'), # 更新发票
     path('api/invoice/create/', views.create_invoice, name='create_invoice'), # 创建发票    
@@ -45,6 +46,8 @@ urlpatterns = [
     path('api/notification/clear_files/', views.clear_notification_files, name='clear_notification_files'),
     # 更新日志
     path('api/update-log/latest/', views.get_latest_update_log, name='get_latest_update_log'),
+    # 期刊进度汇总
+    path('api/journal-progress-summary/', views.get_journal_progress_summary, name='get_journal_progress_summary'),
     # 待办事项相关路由
     path('api/todos/', views.todo_list_view, name='todo_list'), # 获取待办事项
     path('api/todos/<int:todo_id>/', views.todo_detail_view, name='todo_detail'), # 获取待办事项详情

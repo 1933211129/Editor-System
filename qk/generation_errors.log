@@ -1525,3 +1525,74 @@ django.db.utils.OperationalError: (2013, "2013 (HY000): Lost connection to MySQL
 2025-10-14 14:03:32,601 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
 2025-10-14 14:06:04,841 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
 2025-10-14 14:13:11,030 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:07:20,319 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2026-01-01 21:07:25,283 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:07:34,062 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:07:41,777 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:07:45,413 - INFO - /Users/xiaokong/BJ/qk/qikan/urls.py changed, reloading.
+2026-01-01 21:07:57,097 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:08:05,989 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:09,769 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:13,795 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:35,184 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:37,179 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2026-01-01 21:08:39,023 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:39,325 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:39,480 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:39,617 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:08:40,227 - ERROR - Internal Server Error: /api/journal/2/data/
+2026-01-01 21:08:41,017 - ERROR - Internal Server Error: /api/journal/3/data/
+2026-01-01 21:08:41,648 - ERROR - Internal Server Error: /api/journal/4/data/
+2026-01-01 21:08:42,062 - ERROR - Internal Server Error: /api/journal/5/data/
+2026-01-01 21:08:42,930 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:11:25,843 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:11:30,673 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:11:43,511 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:11:45,303 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:11:55,221 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:03,205 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:18,948 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:24,416 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:29,067 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:32,884 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:34,626 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:36,224 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:37,853 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:39,535 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:43,451 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:45,495 - ERROR - Internal Server Error: /api/journal/2/data/
+2026-01-01 21:12:45,934 - ERROR - Internal Server Error: /api/journal/3/data/
+2026-01-01 21:12:46,350 - ERROR - Internal Server Error: /api/journal/4/data/
+2026-01-01 21:12:46,772 - ERROR - Internal Server Error: /api/journal/5/data/
+2026-01-01 21:12:47,341 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:47,349 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:48,314 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:49,681 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:50,017 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:12:51,116 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:51,241 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:12:58,071 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:13:00,551 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:01,079 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:01,232 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:01,398 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:01,534 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:03,353 - ERROR - Internal Server Error: /api/journal/2/data/
+2026-01-01 21:13:03,820 - ERROR - Internal Server Error: /api/journal/3/data/
+2026-01-01 21:13:04,475 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:09,979 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-01 21:13:40,395 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-01 21:14:21,524 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 10:03:17,140 - ERROR - Internal Server Error: /api/journal/1/data/
+2026-01-02 10:03:17,142 - ERROR - Internal Server Error: /api/journal/period-mapping/
+2026-01-02 11:07:32,240 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2026-01-02 11:07:36,171 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:07:47,104 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:07:58,856 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2026-01-02 11:12:41,109 - INFO - /Users/xiaokong/BJ/qk/qikan/models.py changed, reloading.
+2026-01-02 11:17:22,049 - INFO - /Users/xiaokong/BJ/qk/qikan/urls.py changed, reloading.
+2026-01-02 11:17:32,973 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:18:53,812 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:21:41,340 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:21:50,449 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-02 11:22:19,686 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.

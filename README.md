@@ -157,7 +157,7 @@ pip install docxtpl
 SECRET_KEY=your-secret-key
 DEBUG=True
 DB_ENGINE=mysql.connector.django
-DB_NAME=NLP
+DB_NAME=db
 DB_USER=root
 DB_PASSWORD=your-password
 DB_HOST=localhost
@@ -314,5 +314,5 @@ python manage.py migrate
 
 ---
 
-**最后更新**：2024年
+**最后更新**：2026年1月2日
 

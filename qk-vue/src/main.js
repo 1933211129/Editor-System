@@ -7,8 +7,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const app = createApp(App)
 
-// 配置 axios
-axios.defaults.baseURL = 'http://127.0.0.1:8000'  // 确保这个地址正确
+// 配置 axios - 使用相对路径，生产环境通过 Nginx 代理到后端
+axios.defaults.baseURL = ''
 
 app.config.globalProperties.$axios = axios
 app.use(router)

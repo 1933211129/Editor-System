@@ -112,7 +112,7 @@ const importSampleContent = () => {
 const fetchJournalContent = async () => {
   loading.value = true;
   try {
-    const response = await fetch('http://127.0.0.1:8000/api/journal/');
+    const response = await fetch('/api/journal/');
     const data = await response.json();
     
     if (data.status === 'success') {

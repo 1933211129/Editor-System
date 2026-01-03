@@ -87,6 +87,10 @@
 </template>
 
 <script setup>
+import { ref, onMounted, nextTick } from 'vue'
+import Quill from 'quill'
+import 'quill/dist/quill.snow.css'
+
 const formatTime = (timeString) => {
   if (!timeString) return ''
   const date = new Date(timeString)
@@ -101,8 +105,6 @@ const formatTime = (timeString) => {
   })
 }
 /* global defineExpose */
-
-import { ref, onMounted, nextTick } from 'vue'
 
 // 模板列表
 const templates = ref([])
@@ -124,33 +126,9 @@ let quillInstance = null
 
 // 组件挂载时加载数据
 onMounted(() => {
-  // 动态加载Quill.js
-  loadQuillJS()
   // 加载模板数据
   loadTemplates()
 })
-
-// 动态加载Quill.js
-const loadQuillJS = () => {
-  // 检查是否已经加载
-  if (window.Quill) {
-    return
-  }
-  
-  // 加载CSS
-  const link = document.createElement('link')
-  link.rel = 'stylesheet'
-  link.href = 'https://cdn.quilljs.com/1.3.6/quill.snow.css'
-  document.head.appendChild(link)
-  
-  // 加载JS
-  const script = document.createElement('script')
-  script.src = 'https://cdn.quilljs.com/1.3.6/quill.min.js'
-  script.onload = () => {
-    console.log('Quill.js loaded successfully')
-  }
-  document.head.appendChild(script)
-}
 
 // 显示添加模板对话框
 const showAddModal = () => {
@@ -270,7 +248,7 @@ const deleteTemplate = async (id) => {
 
 // 初始化Quill编辑器
 const initQuillEditor = () => {
-  if (!window.Quill || !quillEditor.value) return
+  if (!quillEditor.value) return
   
   // 销毁现有实例
   if (quillInstance) {
@@ -289,8 +267,8 @@ const initQuillEditor = () => {
   // 清空编辑器容器
   quillEditor.value.innerHTML = ''
   
-  // 创建新的Quill实例
-  quillInstance = new window.Quill(quillEditor.value, {
+  // 创建新的Quill实例（使用导入的 Quill）
+  quillInstance = new Quill(quillEditor.value, {
     theme: 'snow',
     placeholder: '请输入邮件模板内容...',
     modules: {
@@ -325,15 +303,8 @@ const showModal = async () => {
   // 等待DOM更新后初始化编辑器
   await nextTick()
   
-  // 等待Quill加载完成
-  const waitForQuill = () => {
-    if (window.Quill) {
-      initQuillEditor()
-    } else {
-      setTimeout(waitForQuill, 100)
-    }
-  }
-  waitForQuill()
+  // 直接初始化编辑器（Quill 已通过 import 加载）
+  initQuillEditor()
 }
 
 // 隐藏模态框

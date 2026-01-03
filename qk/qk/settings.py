@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure--w&uac8)3395(81va%l$d8z_5*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'insightlens.cn']
 
 
 # Application definition
@@ -157,3 +157,4 @@ CACHES = {
 }
 
 APPEND_SLASH = True
+CSRF_TRUSTED_ORIGINS = ['https://insightlens.cn']

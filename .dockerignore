@@ -1,0 +1,77 @@
+# 环境变量和配置文件
+.env
+.env.local
+.env.*.local
+
+# 数据库文件
+*.sqlite3
+*.db
+db.sqlite3
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+env/
+ENV/
+
+# 数据库迁移记录（不包含在镜像中）
+qk/qikan/migrations/
+*/migrations/
+
+# 前端相关
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 构建产物（前端会在容器内构建）
+qk-vue/dist/
+qk-vue/build/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 日志文件
+*.log
+generation_errors.log
+
+# 临时文件
+temp_email_uploads/
+*.tmp
+*.temp
+
+# Git 相关
+.git/
+.gitignore
+.gitattributes
+
+# Docker 相关
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# 测试和文档
+*.ipynb
+test_rm.ipynb
+README.md
+LICENSE
+
+# 其他
+*.bak
+*.backup
+.cache/
+

@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  # Django 后端服务
+  backend:
+    build:
+      context: ./qk
+      dockerfile: Dockerfile
+    container_name: qk_backend
+    restart: always
+    environment:
+      # Django 配置
+      SECRET_KEY: ${SECRET_KEY:-django-insecure-change-this-in-production}
+      DEBUG: ${DEBUG:-False}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-localhost,127.0.0.1}
+      
+      # 数据库配置
+      DB_ENGINE: mysql.connector.django
+      DB_NAME: ${DB_NAME:-db}
+      DB_USER: ${DB_USER:-root}
+      DB_PASSWORD: ${DB_PASSWORD:-rootpassword}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT:-3306}
+      # 时区
+      TZ: Asia/Shanghai
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_uploads:/app/temp_email_uploads
+      - backend_outputs:/app/qikan/output_pdfs
+    networks:
+      - qk_network
+    command: >
+      sh -c "
+        echo 'Waiting for database...' &&
+        sleep 5 &&
+        python manage.py migrate &&
+        gunicorn qk.wsgi:application --bind 0.0.0.0:8000 --workers 4 --timeout 120
+      "
+
+  # Vue 前端服务
+  frontend:
+    build:
+      context: ./qk-vue
+      dockerfile: Dockerfile
+    container_name: qk_frontend
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      # 如果需要自定义 Nginx 配置，取消注释下面这行
+      # - ./qk-vue/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - frontend_static:/usr/share/nginx/html
+    depends_on:
+      - backend
+    networks:
+      - qk_network
+    environment:
+      - TZ=Asia/Shanghai
+
+volumes:
+  backend_uploads:
+    driver: local
+  backend_outputs:
+    driver: local
+  frontend_static:
+    driver: local
+
+networks:
+  qk_network:
+    driver: bridge
+

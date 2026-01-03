@@ -2,6 +2,15 @@
   <div class="main-content">
     <h3>📄 通知文件自动生成</h3>
     
+    <!-- 功能暂停访问遮罩 -->
+    <div class="disabled-overlay">
+      <div class="disabled-content">
+        <i class="bi bi-exclamation-triangle-fill"></i>
+        <h4>功能暂停访问</h4>
+        <p>因资源占用较大，此功能暂时停止访问</p>
+      </div>
+    </div>
+    
     <!-- 添加加载遮罩 -->
     <div class="loading-overlay" v-if="isGenerating">
       <div class="loading-content">
@@ -597,6 +606,60 @@ export default {
 .btn-check:checked + .btn-outline-primary {
   background-color: #0d6efd;
   color: white;
+}
+
+/* 功能暂停访问遮罩 */
+.disabled-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  backdrop-filter: blur(2px);
+}
+
+.disabled-content {
+  text-align: center;
+  padding: 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+}
+
+.disabled-content i {
+  font-size: 64px;
+  color: #ffc107;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.disabled-content h4 {
+  font-size: 24px;
+  color: #495057;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.disabled-content p {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0;
+}
+
+/* 禁用所有交互元素 */
+.main-content {
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.main-content * {
+  pointer-events: none;
 }
 
 .loading-overlay {

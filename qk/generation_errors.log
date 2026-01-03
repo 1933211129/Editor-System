@@ -1596,3 +1596,15 @@ django.db.utils.OperationalError: (2013, "2013 (HY000): Lost connection to MySQL
 2026-01-02 11:21:41,340 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
 2026-01-02 11:21:50,449 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
 2026-01-02 11:22:19,686 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:09:27,257 - WARNING - '录用通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2026-01-03 15:09:32,762 - WARNING - '版面费通知' 批量任务完成。成功: 1, 失败: 0 (其中PDF转换失败: 0)。日志文件: generation_errors.log
+2026-01-03 15:17:30,409 - ERROR - Internal Server Error: /api/invoice/delete/
+2026-01-03 15:22:44,461 - ERROR - Internal Server Error: /api/invoice/delete/
+2026-01-03 15:22:54,380 - ERROR - Internal Server Error: /api/invoice/delete/
+2026-01-03 15:24:41,568 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:24:59,851 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:25:19,521 - ERROR - Internal Server Error: /api/invoice/delete/
+2026-01-03 15:25:58,558 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:26:22,819 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:26:44,725 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.
+2026-01-03 15:27:09,140 - INFO - /Users/xiaokong/BJ/qk/qikan/views.py changed, reloading.

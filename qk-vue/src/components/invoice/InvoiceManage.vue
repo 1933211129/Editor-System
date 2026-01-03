@@ -575,17 +575,48 @@ const deleteRow = async (index) => {
   if (confirm('确定要删除这一行吗？')) {
     try {
       const item = invoiceList.value[index]
-      await axios.post('/api/invoice/delete/', {
-        manuscriptId: item.manuscriptId
+      
+      // 检查是否有 id 或 manuscriptId
+      if (!item.id && !item.manuscriptId) {
+        alert('该记录缺少必要信息，无法删除。')
+        return
+      }
+      
+      // 同时发送 id 和 manuscriptId，后端优先使用 id
+      const requestData = {}
+      if (item.id) {
+        requestData.id = item.id
+      }
+      if (item.manuscriptId) {
+        requestData.manuscriptId = item.manuscriptId
+      }
+      
+      console.log('删除请求数据:', requestData)  // 调试日志
+      
+      const response = await axios.post('/api/invoice/delete/', requestData, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
       })
-      invoiceList.value.splice(index, 1)
-      saveStatus.value = '已删除'
-      setTimeout(() => {
-        saveStatus.value = ''
-      }, 2000)
+      
+      if (response.data.status === 'success') {
+        invoiceList.value.splice(index, 1)
+        saveStatus.value = '已删除'
+        setTimeout(() => {
+          saveStatus.value = ''
+        }, 2000)
+      } else {
+        throw new Error(response.data.message || '删除失败')
+      }
     } catch (error) {
       console.error('删除失败:', error)
+      console.error('错误详情:', error.response?.data)  // 添加详细错误日志
+      const errorMessage = error.response?.data?.message || error.message || '删除失败，请重试'
+      alert(`删除失败: ${errorMessage}`)
       saveStatus.value = '删除失败'
+      setTimeout(() => {
+        saveStatus.value = ''
+      }, 3000)
     }
   }
 }

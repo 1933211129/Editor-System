@@ -908,12 +908,87 @@ def create_invoice(request):
 def delete_invoice(request):
     if request.method == 'POST':
         try:
-            data = json.loads(request.body)
+            # 处理请求体
+            if not request.body:
+                return JsonResponse({
+                    'status': 'error', 
+                    'message': '请求体为空'
+                }, status=400)
+            
+            # 解析 JSON 数据
+            try:
+                if isinstance(request.body, bytes):
+                    body_str = request.body.decode('utf-8')
+                else:
+                    body_str = request.body
+                data = json.loads(body_str)
+                print(f"删除发票请求数据: {data}")  # 调试日志
+            except (json.JSONDecodeError, UnicodeDecodeError) as e:
+                print(f"JSON解析错误: {str(e)}")
+                return JsonResponse({
+                    'status': 'error', 
+                    'message': f'无效的JSON数据: {str(e)}'
+                }, status=400)
+            
+            # 优先使用 id（主键），如果没有则使用 manuscriptId
+            record_id = data.get('id')
             article_id = data.get('manuscriptId')
-            Invoice.objects.get(article_id=article_id).delete()
-            return JsonResponse({'status': 'success'})
+            
+            invoice = None
+            
+            # 尝试通过 id 查找（更可靠）
+            if record_id:
+                try:
+                    invoice = Invoice.objects.get(id=record_id)
+                    print(f"通过ID找到记录: {record_id}")
+                except Invoice.DoesNotExist:
+                    print(f"通过ID未找到记录: {record_id}")
+                    return JsonResponse({
+                        'status': 'error', 
+                        'message': f'找不到ID为 {record_id} 的记录'
+                    }, status=404)
+            # 如果没有 id，尝试通过 article_id 查找
+            elif article_id:
+                try:
+                    invoice = Invoice.objects.get(article_id=article_id)
+                    print(f"通过article_id找到记录: {article_id}")
+                except Invoice.DoesNotExist:
+                    print(f"通过article_id未找到记录: {article_id}")
+                    return JsonResponse({
+                        'status': 'error', 
+                        'message': f'找不到稿件编号为 {article_id} 的记录'
+                    }, status=404)
+            else:
+                return JsonResponse({
+                    'status': 'error', 
+                    'message': '请提供记录ID或稿件编号'
+                }, status=400)
+            
+            # 删除记录
+            if invoice:
+                invoice.delete()
+                print(f"成功删除记录: ID={record_id or 'N/A'}, article_id={article_id or 'N/A'}")
+                return JsonResponse({'status': 'success'})
+            else:
+                return JsonResponse({
+                    'status': 'error', 
+                    'message': '未找到要删除的记录'
+                }, status=404)
+                
         except Exception as e:
-            return JsonResponse({'status': 'error', 'message': str(e)}, status=500)
+            import traceback
+            error_trace = traceback.format_exc()
+            print(f"删除发票错误: {str(e)}")
+            print(error_trace)
+            return JsonResponse({
+                'status': 'error', 
+                'message': f'删除失败: {str(e)}'
+            }, status=500)
+    else:
+        return JsonResponse({
+            'status': 'error', 
+            'message': '不支持的请求方法'
+        }, status=405)
 
 @csrf_exempt
 def clear_invoice_data(request):
